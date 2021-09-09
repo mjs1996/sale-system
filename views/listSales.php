@@ -208,7 +208,9 @@ data: dataen,
 success:function(resp){
   $("#respa").html(resp);
 }
+
 });
+header("refresh:3; ulr=../views/listSales.php")
 showSales();
 return false;
   }
